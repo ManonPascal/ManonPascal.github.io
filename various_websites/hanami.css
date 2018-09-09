@@ -20,11 +20,11 @@ body {
 .a {
 	text-align: left;
 	background-image: url(http://www.healthwithin.co.nz/assets/img/banner-sakura.jpg);
-	background-repeat: no-repeat;
 	padding-top: 0px;
 	width: auto;
 	color: purple;
 	font-family: 'Macondo', cursive;
+	font-size: x-large;
 }
 
 .b {
@@ -84,4 +84,58 @@ h2 {
 
 h1 {
 	font-size: xx-large;
+}
+
+.essai {
+	height: 27vw;
+	width: auto;
+}
+
+.essai2 {
+	 height: 23vw; 
+	 width: auto;
+}
+
+.essai3 {
+	 height: 25vw; 
+	 width: auto;
+}
+.essai4 {
+	 height: 16vw; 
+	 width: auto;
+}
+
+.essai5 {
+	height: 7vw; 
+	width: auto;
+}
+
+.essai6 {
+	height: 7vw; 
+	width: auto;
+}
+
+.essai7 {
+	height: 7vw; 
+	width: auto;
+}
+
+.essai8 {
+	height: 26vw;
+	width: auto;
+}
+
+.essai9 {
+	height: 30vw;
+	width: auto;
+}
+
+.essai10 {
+ 	height: 15vw; 
+	 width: auto;
+}
+
+.essai11 {
+	height: 24vw; 
+	width: auto;
 }
