@@ -1,0 +1,87 @@
+body {
+	background-image: linear-gradient(black, grey);
+}
+
+.myGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 100px 200px;
+	grid-gap: 10px;
+}
+
+.myItem {
+	background-color: #fff;
+	border: solid 2px black;
+	border-radius: 2px;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.a {
+	text-align: left;
+	background-image: url(http://www.healthwithin.co.nz/assets/img/banner-sakura.jpg);
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	width: auto;
+	color: purple;
+	font-family: 'Macondo', cursive;
+}
+
+.b {
+	background-image: url(http://i11.servimg.com/u/f11/11/89/81/93/fond_q11.jpg);
+	width: auto;
+	background-repeat: no-repeat;
+	height: auto;
+	}
+	.pimp {
+		text-align: center;
+		font-family: 'Acme', sans-serif;
+	}
+
+	.links{
+		text-align: right;
+	}
+
+.c {
+	background-image: url(https://thumbs.dreamstime.com/b/gentle-background-cherry-blossoms-blooming-apple-tree-flying-petals-cherries-festival-flowering-sakura-petals-110118841.jpg);
+	color: purple;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	grid-column-start: 1; 
+	grid-column-end: 3;
+	margin-bottom: 10px;
+	text-align: center;
+	font-style: italic;
+	font-size: large;
+
+}
+
+.d {
+	background-image: linear-gradient(purple, pink);
+	grid-row-start: 1;
+	grid-row-end: 10;
+	grid-column-start: 1; 
+	grid-column-end: 3;
+	margin-bottom: 10px;
+	height: 1000px;
+	width: auto;
+	font-family: 'Macondo', cursive;
+	font-size: large;
+}
+h3 {
+	margin-bottom: 0px;
+}
+
+.e{
+	background-image: linear-gradient(pink, purple);
+	font-family: 'Macondo', cursive;
+	font-size: large;
+}
+
+h2 { 
+	font-size: xx-large;
+}
+
+h1 {
+	font-size: xx-large;
+}

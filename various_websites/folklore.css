@@ -1,0 +1,79 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.myGrid {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(4, 1fr); 
+	grid-template-rows: 20px repeat(13, 150px) 20px;
+}
+
+.item-header {
+	background-color: #CD853F;
+	border-style: solid;
+	grid-column-start: 1; 
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	text-align: center;
+	font-size: xx-large;
+	font-family: 'Indie Flower', cursive;
+}
+.deux {
+	background-color: #F5DEB3;
+	border-style: solid;
+	grid-column-start: 1; 
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 11;
+}
+
+
+.trois{
+	margin: auto;
+	background-color: #F5DEB3;
+	border-style: solid;
+	grid-column-start: 3; 
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 8;
+	padding-top: 0px;
+}
+.item-footer {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 15;
+	grid-row-end: span 1;
+}
+
+.cinq {
+	margin: auto;
+	background-color: #CD853F;
+	border-style: solid;
+	grid-column-start: 1; 
+	grid-column-end: 5;
+	grid-row-start: 11;
+	grid-row-end: 15;
+}
+
+.six {
+	margin: auto;
+	background-color: #CD853F;
+	border-style: solid;
+	grid-column-start: 3; 
+	grid-column-end: 5;
+	grid-row-start: 8;
+	grid-row-end: 11;
+}
+
+p {
+	font-family: 'PT Serif', serif;
+	margin:auto;
+	max-width: 35em;
+}
+
+h2 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}

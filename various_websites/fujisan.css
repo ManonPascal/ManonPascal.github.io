@@ -1,0 +1,40 @@
+body {
+	background: linear-gradient(#CD853F, #DEB887);
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+	font-family: 'Fjord One', serif;
+}
+
+p {
+	max-width: 35em;
+}
+
+.fuji {
+	text-align: center;
+
+}
+
+.pic {
+	height: auto;
+	width: 70vw;
+	border-style: solid;
+	align-items: center;
+}
+
+main {
+	text-align: center;
+	margin-top: 0px;
+	align-items: center;
+}
+
+main * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.obv {
+	height: auto;
+	width: 30vw;
+}
